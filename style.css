@@ -1,0 +1,29 @@
+body{
+    background-color: #333;
+}
+p, li, span{
+    color: white; 
+}
+
+
+.title:hover{
+    color: violet; 
+}
+
+li:nth-child(even){
+    color: lime; 
+}
+span:first-of-type{
+    color:gold;
+}
+.test p:first-child{
+    color: tomato;
+}
+
+.test p:last-child{
+    color: tomato;
+}
+.tite{
+    font-weight: bold;
+    transition: color .3s;
+}
